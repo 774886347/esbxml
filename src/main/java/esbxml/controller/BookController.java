@@ -27,11 +27,8 @@ public class BookController
 	{
 		// 调用Service组件的方法添加Book对象
 		bookService.addBook(book);
-		HttpHeaders headers = new HttpHeaders();
-		headers.add(HttpHeaders.CONTENT_ENCODING, "UTF-8");
-		headers.add(HttpHeaders.CONTENT_TYPE, "application/xml");
 		// 调用Service组件的getAllBooks()方法返回全部Book实例
-		return new ResponseEntity<>(new ListWrapper<>(bookService.getAllBooks()), headers ,
+		return new ResponseEntity<>(new ListWrapper<>(bookService.getAllBooks()) ,
 				HttpStatus.OK);
 	}
 }
