@@ -1,0 +1,19 @@
+<RequestDTO>
+    <respHead>
+        <aaa>sdg</aaa>
+        <bbb>ryh</bbb>
+        <ccc>fgh</ccc>
+    </respHead>
+    <list>
+        <respBody>
+            <ddd>vbn</ddd>
+            <eee>fgn</eee>
+            <fff>rt</fff>
+        </respBody>
+        <respBody>
+            <ddd>jyt</ddd>
+            <eee>mu</eee>
+            <fff>mutyn</fff>
+        </respBody>
+    </list>
+</RequestDTO>

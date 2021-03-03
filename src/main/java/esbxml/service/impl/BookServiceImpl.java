@@ -9,9 +9,7 @@ import org.springframework.stereotype.Service;
 import esbxml.domain.Book;
 import esbxml.service.BookService;
 
-/**
- * 
- */
+
 @Service
 public class BookServiceImpl implements BookService
 {
